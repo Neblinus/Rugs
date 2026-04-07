@@ -1,4 +1,4 @@
-# Define the Raylib color struct
+# Defines the Raylib Color struct
 require "ffi"
 
 class Color < FFI::Struct

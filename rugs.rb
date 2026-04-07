@@ -3,6 +3,7 @@ require "ffi"
 
 ### FFI wrappings for Raylib structs
 require_relative "Structs/colors"
+require_relative "Structs/vector_2"
 
 # The library wrapping itself
 module Rugs
