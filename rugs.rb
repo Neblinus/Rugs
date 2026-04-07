@@ -6,6 +6,7 @@ require_relative "Structs/colors"
 require_relative "Structs/vector_2"
 require_relative "Structs/vector_3"
 require_relative "Structs/vector_4"
+require_relative "Structs/matrix"
 
 # The library wrapping itself
 module Rugs
