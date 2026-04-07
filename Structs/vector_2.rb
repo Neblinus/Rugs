@@ -13,12 +13,6 @@ class Vector2 < FFI::Struct
 	def x() self[:x_coordinate] end
 	def y() self[:y_coordinate] end
 	# Allows the Vector2 coordinates to be changed safely
-	def x=(new_x_coordinate)
-		if new_x_coordinate.is_a?(Numeric) then self[:x_coordinate] = new_x_coordinate else
-		raise TypeError.new("Expected a Numeric object for the Vector2 X-coordinate.") end
-	end
-	def y=(new_y_coordinate)
-		if new_y_coordinate.is_a?(Numeric) then self[:y_coordinate] = new_y_coordinate else
-		raise TypeError.new("Expected a Numeric object for the Vector2 Y-coordinate.") end
-	end
+	def x=(new_x_coordinate) self[:x_coordinate] = new_x_coordinate end
+	def y=(new_y_coordinate) self[:y_coordinate] = new_y_coordinate end
 end
