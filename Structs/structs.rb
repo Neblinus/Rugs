@@ -1,0 +1,9 @@
+# Group the Raylib structures
+require_relative "color"
+require_relative "vector_2"
+require_relative "vector_3"
+require_relative "vector_4"
+require_relative "matrix"
+require_relative "rectangle"
+require_relative "image"
+require_relative "texture"
