@@ -1,6 +1,4 @@
 # Group the Raylib structures
-require "ffi"
-
 require_relative "color"
 require_relative "vector_2"
 require_relative "vector_3"
