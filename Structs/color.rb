@@ -3,21 +3,21 @@ require "ffi"
 
 class Color < FFI::Struct
 	# Defines the struct leveraging its compatibility with the library's one
-	layout :red, :uchar,
-		     :green, :uchar,
-		     :blue, :uchar,
-		     :alpha, :uchar
-	def initialize(red, green, blue, alpha)
-		self[:red] = red
-		self[:green] = green
-		self[:blue] = blue
-		self[:alpha] = alpha
+	layout :r, :uchar,
+		     :g, :uchar,
+		     :b, :uchar,
+		     :a, :uchar
+	def initialize(r, g, b, a)
+		self[:r] = r
+		self[:g] = g
+		self[:b] = b
+		self[:a] = a
 	end
 	# The library needs access to the color through this exact names
-	def red() self[:red] end
-	def green() self[:green] end
-	def blue() self[:blue] end
-	def alpha() self[:alpha] end
+	def r() self[:r] end
+	def g() self[:g] end
+	def b() self[:b] end
+	def a() self[:a] end
   # Define the constants manually, as macros reading isn't supported
   LIGHT_GRAY = Color.new(200, 200, 200, 255) ; GRAY = Color.new(130, 130, 130, 255)
   DARK_GRAY = Color.new(80, 80, 80, 255) ; YELLOW = Color.new(253, 249, 0, 255)
