@@ -5,8 +5,8 @@ require_relative "texture"
 class RenderTexture < FFI::Struct
 	# Defines the struct leveraging its compatibility with the library's one
 	layout :id, :uint,
-	       :texture, Texture.by_value,
-	       :depth, Texture.by_value
+	       :texture, Texture,
+	       :depth, Texture
 	def initialize(id, texture, depth)
 		self[:id] = id
 		self[:texture] = texture

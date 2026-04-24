@@ -8,7 +8,7 @@ class GlyphInfo < FFI::Struct
 	       :offset_x, :int,
 	       :offset_y, :int,
 	       :advance_x, :int,
-	       :image, Image.by_value
+	       :image, Image
 	def initialize(value, offset_x, offset_y, advance_x, image)
 		self[:value] = value
 		self[:offset_x] = offset_x
