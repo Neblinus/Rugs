@@ -27,8 +27,8 @@ Look at the examples on the table to see the differences:
 > It can be applied to any of the Raylib's functions.
 
 ## Structs fields/constants and usage
-To better align with the Ruby language conventions, struct fields/constants are changed from the original Raylib conventions (`UpperCamelCase`) to
-the Ruby ones (`snake_case` for fields or `SCREAMING_SNAKE_CASE` for constants).
+To better align with the Ruby language conventions, struct fields/constants are changed from the original Raylib conventions (`UpperCamelCase`
+for fields or `UPPERCASE` for constants) to the Ruby ones (`snake_case` for fields or `SCREAMING_SNAKE_CASE` for constants).
 
 Look at the examples on the table to see the differences:
 
