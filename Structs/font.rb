@@ -1,8 +1,6 @@
 # Define the Raylib Font struct
 require "ffi"
 require_relative "texture_2d"
-require_relative "rectangle"
-require_relative "glyph_info"
 
 class Font < FFI::Struct
   # Defines the struct leveraging its compatibility with the library's one
