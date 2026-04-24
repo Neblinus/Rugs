@@ -17,5 +17,4 @@ module Rugs
 	attach_function :draw_text, :DrawText, [:string, :int, :int, :int, Color.by_value], :void
 	attach_function :end_drawing, :EndDrawing, [], :void
 	attach_function :close_window, :CloseWindow, [], :void
-	attach_function :set_target_fps, :SetTargetFPS, [:int], :void
 end
