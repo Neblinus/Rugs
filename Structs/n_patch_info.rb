@@ -4,7 +4,7 @@ require_relative "rectangle"
 
 class NPatchInfo < FFI::Struct
 	# Defines the struct leveraging its compatibility with the library's one
-	layout :source, Rectangle.by_value,
+	layout :source, Rectangle,
 	       :left, :int,
 	       :top, :int,
 	       :right, :int,
