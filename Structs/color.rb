@@ -14,10 +14,10 @@ class Color < FFI::Struct
 		self[:alpha] = alpha
 	end
 	# The library needs access to the color through this exact names
-	def r() self[:red] end
-	def g() self[:green] end
-	def b() self[:blue] end
-	def a() self[:alpha] end
+	def red() self[:red] end
+	def green() self[:green] end
+	def blue() self[:blue] end
+	def alpha() self[:alpha] end
   # Define the constants manually, as macros reading isn't supported
   LIGHT_GRAY = Color.new(200, 200, 200, 255) ; GRAY = Color.new(130, 130, 130, 255)
   DARK_GRAY = Color.new(80, 80, 80, 255) ; YELLOW = Color.new(253, 249, 0, 255)
