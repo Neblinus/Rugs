@@ -41,4 +41,4 @@ Look at the examples on the table to see the differences:
 | `Color`   | Constant | `RAYWHITE`  | `RAY_WHITE` |
 
 > [!IMPORTANT]
-> For the complete list of changed struct's fields/constants names, check ...
+> For the complete list of changed struct's fields/constants names, check <a href="https://github.com/Neblinus/Rugs/blob/main/Docs/Structs Specifics.md">this page</a>.
