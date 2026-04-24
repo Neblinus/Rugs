@@ -28,3 +28,6 @@ class Texture < FFI::Struct
 	def mip_maps=(new_mip_maps) self[:mip_maps] = new_mip_maps end
 	def format=(new_format) self[:format] = new_format end
 end
+
+# Texture2D is the same type as Texture
+Texture2D = Texture

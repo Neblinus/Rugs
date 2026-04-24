@@ -1,13 +1,13 @@
 # Define the Raylib Font struct
 require "ffi"
-require_relative "texture_2d"
+require_relative "texture"
 
 class Font < FFI::Struct
   # Defines the struct leveraging its compatibility with the library's one
   layout :base_size, :int,
          :glyph_count, :int,
          :glyph_padding, :int,
-         :texture, :Texture2D,
+         :texture, Texture2D,
          :recs, :pointer,
          :glyphs, :pointer
   def initialize(base_size, glyph_count, glyph_padding, texture, recs, glyphs)
