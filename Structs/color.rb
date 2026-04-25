@@ -13,7 +13,7 @@ class Color < FFI::Struct
 		self[:b] = b
 		self[:a] = a
 	end
-	# The library needs access to the color through this exact names
+	# Define the getter methods leveraging library access
 	def r() self[:r] end
 	def g() self[:g] end
 	def b() self[:b] end
