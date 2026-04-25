@@ -87,3 +87,11 @@ is to use `UpperCamelCase`.
 | Field    | `meshMaterial`  | `mesh_material`  |
 | Field    | `currentPose`   | `current_pose`   |
 | Field    | `boneMatrices`  | `bone_matrices`  |      
+
+## ModelAnimation
+
+| Category | Raylib name     | Rugs name         |
+|----------|-----------------|-------------------|
+| Field    | `boneCount`     | `bone_count`      |
+| Field    | `keyFrameCount` | `key_frame_count` |
+| Field    | `keyFramePoses` | `key_frame_poses` |
