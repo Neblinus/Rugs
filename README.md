@@ -44,3 +44,9 @@ until window_should_close?
 end
 close_window
 ```
+
+## Copyright notice
+Note that this project is a binding to an existing library, Raylib, avaliable at <https://github.com/raysan5/raylib> and
+licensed under the Zlib license.
+
+The author of this repository and project DOES NOT CLAIM ownership over any Raylib code.
