@@ -57,26 +57,33 @@ is to use `UpperCamelCase`.
 
 ## Mesh
 
-| Category | Raylib name | Rugs name  |
-|----------|-------------|------------|
-| Field              | `vertexCount`    | `vertex_count`   |
-| Field              | `triangleCount`  | `triangle_count` |
-| Field              | `texCoords`      | `tex_coords`     |
-| Field              | `texCoords2`     | `tex_coords_2`   |
-| Field              | `boneCount`      | `bone_count`     |
-| Field              | `boneIndices`    | `bone_indices`   |
-| Field              | `boneWeights`    | `bone_weights`   |
-| Field              | `animVertices`   | `anim_vertices`  |
-| Field              | `animNormals`    | `anim_normals`   |
-| Field              | `vaoId`          | `vao_id`         |
-| Field              | `vboId`          | `vbo_id`         |
+| Category | Raylib name     | Rugs name        |
+|----------|-----------------|------------------|
+| Field    | `vertexCount`   | `vertex_count`   |
+| Field    | `triangleCount` | `triangle_count` |
+| Field    | `texCoords`     | `tex_coords`     |
+| Field    | `texCoords2`    | `tex_coords_2`   |
+| Field    | `boneCount`     | `bone_count`     |
+| Field    | `boneIndices`   | `bone_indices`   |
+| Field    | `boneWeights`   | `bone_weights`   |
+| Field    | `animVertices`  | `anim_vertices`  |
+| Field    | `animNormals`   | `anim_normals`   |
+| Field    | `vaoId`         | `vao_id`         |
+| Field    | `vboId`         | `vbo_id`         |
 
-| Struct          | Classification     | Raylib name      | Rugs name        |
-|-----------------|--------------------|------------------|------------------|
-| `ModelSkeleton` | Field              | `boneCount`      | `bone_count`     |
-| `ModelSkeleton` | Field              | `bindPose`       | `bind_pose`      |
-| `Model`         | Field              | `meshCount`      | `mesh_count`     |
-| `Model`         | Field              | `materialCount`  | `material_count` |
-| `Model`         | Field              | `meshMaterial`   | `mesh_material`  |
-| `Model`         | Field              | `currentPose`    | `current_pose`   |
-| `Model`         | Field              | `boneMatrices`   | `bone_matrices`  |
+## ModelSkeleton
+
+| Category | Raylib name | Rugs name        |
+|----------|-------------|------------------|
+| Field    | `boneCount` | `bone_count`     |
+| Field    | `bindPose`  | `bind_pose`      |
+
+## Model
+
+| Category | Raylib name     | Rugs name        |
+|----------|-----------------|------------------|
+| Field    | `meshCount`     | `mesh_count`     |
+| Field    | `materialCount` | `material_count` |
+| Field    | `meshMaterial`  | `mesh_material`  |
+| Field    | `currentPose`   | `current_pose`   |
+| Field    | `boneMatrices`  | `bone_matrices`  |      
