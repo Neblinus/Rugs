@@ -6,7 +6,7 @@ Ruby bindings for Raylib following the language's conventions
 > This is heavily and still a work in progress.<br>
 > Almost all functionality is lacking.
 
-Documentation can be found at the [docs directory]("./Docs").
+Documentation can be found at the [docs directory](Docs).
 
 Note that these bindings modules use the FFI gem to provide the calls to Raylib's C code.
 
