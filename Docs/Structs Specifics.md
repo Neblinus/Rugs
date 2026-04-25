@@ -95,3 +95,11 @@ is to use `UpperCamelCase`.
 | Field    | `boneCount`     | `bone_count`      |
 | Field    | `keyFrameCount` | `key_frame_count` |
 | Field    | `keyFramePoses` | `key_frame_poses` |
+
+## Wave
+
+| Category | Raylib name  | Rugs name     |
+|----------|--------------|---------------|
+| Field    | `frameCount` | `frame_count` |
+| Field    | `sampleRate` | `sample_rate` |
+| Field    | `sampleSize` | `sample_size` |
