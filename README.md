@@ -1,4 +1,4 @@
-# Rugs
+# Rugs [rugs-logo](rugs.png)
 Ruby wrappers for Raylib following the language's conventions
 
 > [!IMPORTANT]
