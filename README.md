@@ -1,9 +1,14 @@
-# Rugs
-Ruby wrappers for Raylib following the language's conventions
+<img align="right" style="width:256px" alt="Rugs bindings logo" src="rugs.png"><br>
+**Rugs**: Ruby bindings for Raylib following the language's conventions
 
 > [!IMPORTANT]
 > This is heavily and still a work in progress.<br>
 > Almost all functionality is lacking.
+
+Documentation can be found at the [docs directory]("./Docs").
+
+Note that these bindings modules use the FFI gem to provide the calls to<br>
+Raylib's C code.
 
 ## Roadmap for features implementation
 
