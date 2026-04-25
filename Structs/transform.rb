@@ -24,4 +24,4 @@ class Transform < FFI::Struct
 end
 
 # Set the ModelAnimPose type
-ModelAnimPose = [:pointer, Transform]
+ModelAnimPose = :pointer
