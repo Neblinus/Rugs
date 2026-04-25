@@ -22,3 +22,6 @@ class Transform < FFI::Struct
 	def rotation=(new_rotation) self[:rotation] = new_rotation end
 	def scale=(new_scale) self[:scale] = new_scale end
 end
+
+# Set the ModelAnimPose type
+ModelAnimPose = [:pointer, Transform]
