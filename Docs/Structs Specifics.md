@@ -46,3 +46,8 @@ is to use `UpperCamelCase`.
 | `Mesh`          | Field              | `vboId`          | `vbo_id`         |
 | `ModelSkeleton` | Field              | `boneCount`      | `bone_count`     |
 | `ModelSkeleton` | Field              | `bindPose`       | `bind_pose`      |
+| `Model`         | Field              | `meshCount`      | `mesh_count`     |
+| `Model`         | Field              | `materialCount`  | `material_count` |
+| `Model`         | Field              | `meshMaterial`   | `mesh_material`  |
+| `Model`         | Field              | `currentPose`    | `current_pose`   |
+| `Model`         | Field              | `boneMatrices`   | `bone_matrices`  |
