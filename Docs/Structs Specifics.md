@@ -15,21 +15,32 @@ is to use `UpperCamelCase`.
 
 ## Struct's fields/constants naming comparision between Raylib and Rugs
 
-| Struct      | Classification     | Raylib name    | Rugs name       |
-|-------------|--------------------|----------------|-----------------|
-| `Color`     | Constant           | `LIGHTGRAY`    | `LIGHT_GRAY`    |
-| `Color`     | Constant           | `DARKGRAY`     | `DARK_GRAY`     |
-| `Color`     | Constant           | `DARKGREEN`    | `DARK_GREEN`    |
-| `Color`     | Constant           | `SKYBLUE`      | `SKY_BLUE`      |
-| `Color`     | Constant           | `DARKBLUE`     | `DARK_BLUE`     |
-| `Color`     | Constant           | `DARKPURPLE`   | `DARK_PURPLE`   |
-| `Color`     | Constant           | `DARKBROWN`    | `DARK_BROWN`    |
-| `Color`     | Constant           | `RAYWHITE`     | `RAY_WHITE`     |
-| `Font`      | Field              | `baseSize`     | `base_size`     |
-| `Font`      | Field              | `glyphCount`   | `glyph_count`   |
-| `Font`      | Field              | `glyphPadding` | `glyph_padding` |
-| `GlyphInfo` | Field              | `offsetX `     | `offset_x`      |
-| `GlyphInfo` | Field              | `offsetY `     | `offset_y`      |
-| `GlyphInfo` | Field              | `advanceX `    | `advance_x`     |
-| `Image`     | Field              | `mipmaps`      | `mip_maps`      |
-| `Texture`   | Field              | `mipmaps`      | `mip_maps`      |
+| Struct      | Classification     | Raylib name      | Rugs name        |
+|-------------|--------------------|------------------|------------------|
+| `Color`     | Constant           | `LIGHTGRAY`      | `LIGHT_GRAY`     |
+| `Color`     | Constant           | `DARKGRAY`       | `DARK_GRAY`      |
+| `Color`     | Constant           | `DARKGREEN`      | `DARK_GREEN`     |
+| `Color`     | Constant           | `SKYBLUE`        | `SKY_BLUE`       |
+| `Color`     | Constant           | `DARKBLUE`       | `DARK_BLUE`      |
+| `Color`     | Constant           | `DARKPURPLE`     | `DARK_PURPLE`    |
+| `Color`     | Constant           | `DARKBROWN`      | `DARK_BROWN`     |
+| `Color`     | Constant           | `RAYWHITE`       | `RAY_WHITE`      |
+| `Font`      | Field              | `baseSize`       | `base_size`      |
+| `Font`      | Field              | `glyphCount`     | `glyph_count`    |
+| `Font`      | Field              | `glyphPadding`   | `glyph_padding`  |
+| `GlyphInfo` | Field              | `offsetX`        | `offset_x`       |
+| `GlyphInfo` | Field              | `offsetY`        | `offset_y`       |
+| `GlyphInfo` | Field              | `advanceX`       | `advance_x`      |
+| `Image`     | Field              | `mipmaps`        | `mip_maps`       |
+| `Texture`   | Field              | `mipmaps`        | `mip_maps`       |
+| `Mesh`      | Field              | `vertexCount`    | `vertex_count`   |
+| `Mesh`      | Field              | `triangleCount`  | `triangle_count` |
+| `Mesh`      | Field              | `texCoords`      | `tex_coords`     |
+| `Mesh`      | Field              | `texCoords2`     | `tex_coords_2`   |
+| `Mesh`      | Field              | `boneCount`      | `bone_count`     |
+| `Mesh`      | Field              | `boneIndices`    | `bone_indices`   |
+| `Mesh`      | Field              | `boneWeights`    | `bone_weights`   |
+| `Mesh`      | Field              | `animVertices`   | `anim_vertices`  |
+| `Mesh`      | Field              | `animNormals`    | `anim_normals`   |
+| `Mesh`      | Field              | `vaoId`          | `vao_id`         |
+| `Mesh`      | Field              | `vboId`          | `vbo_id`         |
