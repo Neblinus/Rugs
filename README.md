@@ -7,7 +7,7 @@ Ruby wrappers for Raylib following the language's conventions
 
 ## Roadmap for features implementation
 
-- [ ] Structs
+- [ ] **Structs** (<ins>in progress<ins>)
 - [ ] RCore modules
 - [ ] RShapes modules
 - [ ] RTextures modules
