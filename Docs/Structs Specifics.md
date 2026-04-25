@@ -57,19 +57,22 @@ is to use `UpperCamelCase`.
 
 ## Mesh
 
+| Category | Raylib name | Rugs name  |
+|----------|-------------|------------|
+| Field              | `vertexCount`    | `vertex_count`   |
+| Field              | `triangleCount`  | `triangle_count` |
+| Field              | `texCoords`      | `tex_coords`     |
+| Field              | `texCoords2`     | `tex_coords_2`   |
+| Field              | `boneCount`      | `bone_count`     |
+| Field              | `boneIndices`    | `bone_indices`   |
+| Field              | `boneWeights`    | `bone_weights`   |
+| Field              | `animVertices`   | `anim_vertices`  |
+| Field              | `animNormals`    | `anim_normals`   |
+| Field              | `vaoId`          | `vao_id`         |
+| Field              | `vboId`          | `vbo_id`         |
+
 | Struct          | Classification     | Raylib name      | Rugs name        |
 |-----------------|--------------------|------------------|------------------|
-| `Mesh`          | Field              | `vertexCount`    | `vertex_count`   |
-| `Mesh`          | Field              | `triangleCount`  | `triangle_count` |
-| `Mesh`          | Field              | `texCoords`      | `tex_coords`     |
-| `Mesh`          | Field              | `texCoords2`     | `tex_coords_2`   |
-| `Mesh`          | Field              | `boneCount`      | `bone_count`     |
-| `Mesh`          | Field              | `boneIndices`    | `bone_indices`   |
-| `Mesh`          | Field              | `boneWeights`    | `bone_weights`   |
-| `Mesh`          | Field              | `animVertices`   | `anim_vertices`  |
-| `Mesh`          | Field              | `animNormals`    | `anim_normals`   |
-| `Mesh`          | Field              | `vaoId`          | `vao_id`         |
-| `Mesh`          | Field              | `vboId`          | `vbo_id`         |
 | `ModelSkeleton` | Field              | `boneCount`      | `bone_count`     |
 | `ModelSkeleton` | Field              | `bindPose`       | `bind_pose`      |
 | `Model`         | Field              | `meshCount`      | `mesh_count`     |
