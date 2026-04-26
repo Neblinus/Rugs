@@ -12,8 +12,8 @@ Note that these bindings modules use the FFI gem to provide the calls to Raylib'
 
 ## Roadmap for features implementation
 
-- [ ] **Structs** (<ins>in progress<ins>)
-- [ ] RCore modules
+- [X] Structs
+- [ ] **RCore modules** (<ins>in progress<ins>)
 - [ ] RShapes modules
 - [ ] RTextures modules
 - [ ] RText modules
