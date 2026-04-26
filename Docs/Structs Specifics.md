@@ -103,3 +103,38 @@ is to use `UpperCamelCase`.
 | Field    | `frameCount` | `frame_count` |
 | Field    | `sampleRate` | `sample_rate` |
 | Field    | `sampleSize` | `sample_size` |
+
+## AudioStream
+
+| Category | Raylib name  | Rugs name     |
+|----------|--------------|---------------|
+| Field    | `sampleRate` | `sample_rate` |
+| Field    | `sampleSize` | `sample_size` |
+
+## Sound
+
+| Category | Raylib name  | Rugs name     |
+|----------|--------------|---------------|
+| Field    | `frameCount` | `frame_count` |
+
+## Music
+
+| Category | Raylib name  | Rugs name     |
+|----------|--------------|---------------|
+| Field    | `frameCount` | `frame_count` |
+| Field    | `ctxType`    | `ctx_type`    |
+| Field    | `ctxData`    | `ctx_data`    |
+
+## VrDeviceInfo
+
+| Category | Raylib name              | Rugs name                  |
+|----------|--------------------------|----------------------------|
+| Field    | `hResolution`            | `h_resolution`             |
+| Field    | `vResolution`            | `v_resolution`             |
+| Field    | `hScreenSize`            | `h_screen_size`            |
+| Field    | `vScreenSize`            | `v_screen_size`            |
+| Field    | `eyeToScreenDistance`    | `eye_to_screen_distance`   |
+| Field    | `lensSeparationDistance` | `lens_separation_distance` |
+| Field    | `interpupillaryDistance` | `interpupillary_distance`  |
+| Field    | `lensDistortionValues`   | `lens_distortion_values`   |
+| Field    | `chromaAbCorrection`     | `chroma_Ab_correction`     |
