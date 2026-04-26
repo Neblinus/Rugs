@@ -24,3 +24,6 @@ class Vector4 < FFI::Struct
 	def z=(new_z) self[:z] = new_z end
 	def w=(new_w) self[:w] = new_w end
 end
+
+# Quaternion is the same type as Vector4
+Quaternion = Vector4
